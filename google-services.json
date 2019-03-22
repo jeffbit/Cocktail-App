@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "387417055359",
+    "firebase_url": "https://favoritemtbtrailapp.firebaseio.com",
+    "project_id": "favoritemtbtrailapp",
+    "storage_bucket": "favoritemtbtrailapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387417055359:android:42d9e4af5813d775",
+        "android_client_info": {
+          "package_name": "com.example.jeff.mtbtrailapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387417055359-g3bufpou2rme71iuv4jf8htlihli4v5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeff.mtbtrailapp",
+            "certificate_hash": "ea4cef33aeeb9b487c69c46dfa5c815ec66f5677"
+          }
+        },
+        {
+          "client_id": "387417055359-35n4su0tonr3nft2g8b16mco7rf7lpcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA-gxXQYK6oONKIS9VvR3nBG2Cgz0kSX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387417055359-35n4su0tonr3nft2g8b16mco7rf7lpcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

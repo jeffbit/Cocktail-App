@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userViewFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Fragment.EditUserInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userViewInfoTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Info"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/userViewFirstNameTV"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="First Name" />
+
+            <TextView
+                android:id="@+id/userViewFirstNameTV2"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/userViewLastNameTV"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="Last Name" />
+
+            <TextView
+                android:id="@+id/userViewLastNameTV2"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/userViewAgeTV"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="Age" />
+
+            <TextView
+                android:id="@+id/userViewAgeTV2"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/userViewSexTV"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:text="Sex"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/userViewSexTV2"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewStart" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/userViewPhoneTV"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="Phone" />
+
+            <TextView
+                android:id="@+id/userViewPhoneTV2"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/userViewEditBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/side_nav_bar"
+            android:paddingTop="15dp"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/userViewDeleteBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/side_nav_bar"
+            android:paddingTop="15dp"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/userViewSaveBTN2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/side_nav_bar"
+            android:paddingTop="15dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/userViewBackBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/side_nav_bar"
+            android:paddingTop="15dp"
+            android:text="Back" />
+
+    </LinearLayout>
+</FrameLayout>
