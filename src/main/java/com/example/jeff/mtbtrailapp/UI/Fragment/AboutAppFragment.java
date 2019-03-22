@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.jeff.mtbtrailapp.R;
 
@@ -24,6 +26,10 @@ public class AboutAppFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    private TextView aboutApp;
+    private ImageView aboutIV;
+
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -66,7 +72,20 @@ public class AboutAppFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_app, container, false);
+        View view = inflater.inflate(R.layout.fragment_about_app, container, false);
+
+        aboutIV = view.findViewById(R.id.aboutIV);
+        aboutApp = view.findViewById(R.id.aboutAppTV);
+        aboutApp.setText("  Application Created to satisfy requirements for WGU IT capstone project" +
+                "Cocktail application allows users to login/signup and search the database " +
+                "for drinks they are interested in trying.\n" +
+                "   They can save the drinks to their favorites list to view for at another time " +
+                "and create reports based on their favorite drinks.\n" +
+                "This application uses FirebaseDatabase to store users information, FirebaseAuth to Authenticate" +
+                "users on login, and React to interact with CocktailDbAPI.\n" +
+                "   Future updates will allow users to create and upload custom cocktails to the app along with rating and reviewing " +
+                "other users drinks on the platform.");
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

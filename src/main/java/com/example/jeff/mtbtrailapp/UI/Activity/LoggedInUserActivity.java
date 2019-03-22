@@ -96,6 +96,10 @@ public class LoggedInUserActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        View headView = navigationView.getHeaderView(0);
+        emailHeaderNav = headView.findViewById(R.id.navHeadEmailTV);
+        emailHeaderNav.setText(FirebaseAuth.getInstance().getCurrentUser().getEmail());
+
 
         floatingActionButton = findViewById(R.id.floatingActionButtonDF);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
@@ -248,6 +252,7 @@ public class LoggedInUserActivity extends AppCompatActivity
 
         } else if (id == R.id.navSignOut) {
             signOutAlert();
+            onBackPressed();
 
             return true;
 
