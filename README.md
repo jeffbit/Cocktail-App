@@ -11,7 +11,7 @@ When a cocktail is clicked a new fragment appears that gives the user the drink 
 
 
 Design and develop a fully functional software application that addresses your identified business problem or organizational need. Include each  of the following attributes as they are the minimum required elements  for the application:
-●  one of the following application types: mobile, web, or stand-alone application
+●  one of the following application types: mobile, web, or stand-alone application "\n"
 ●  code including inheritance, polymorphism, and encapsulation
 ●  search functionality with multiple row results and displays
 ●  a database component with the functionality to securely add, modify, and delete the data
