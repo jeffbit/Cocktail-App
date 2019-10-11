@@ -1,7 +1,7 @@
 # Cocktail-App
 
 
-This application was created for a school project in Android Studio. My goal with this project was to learn to use react api interactions, google Firebase, and junit testing. 
+Prototype application created for a school project in Android Studio. My goal with this project was to learn to use react api interactions, google Firebase, and junit testing. 
 
 It is a simple cocktail app written in java using android studio, googles firebase(for user authentication and database storage), and cocktailDb API to search and favorite drinks.
 Some of the features of this application allow the user to login or create an account to view the cocktail list.
